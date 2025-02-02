@@ -1,16 +1,10 @@
-# Credit-Card-Fraud-Detection-API
+# Credit-Card-Fraud-Detection
 
-This project trains a Random Forest Classifier on the credit card fraud dataset and deploys it as an API using FastAPI & ngrok in Google Colab.
+This project trains a Random Forest Classifier on the credit card fraud dataset in Google Colab.
 
 🛠 Features
 
 ✅ Train a Random Forest Model for fraud detection
-
-✅ Deploy FastAPI Server to serve predictions
-
-✅ Expose API via ngrok for public access
-
-✅ Test API with real transaction data
 
 📂 Dataset
 
@@ -26,16 +20,9 @@ This project trains a Random Forest Classifier on the credit card fraud dataset 
 
 2️⃣ Install dependencies
 
-3️⃣ Run the notebook to train the model & start the FastAPI server
+3️⃣ Run the notebook to train the model 
 
-4️⃣ Get the ngrok public URL and test the API
-
-📡 API Endpoints
-
-1️⃣ GET / → Health check
-
-2️⃣ POST /predict → Predict fraud
 
 📌 Tech Stack
 
-🔹 Python, FastAPI, Scikit-Learn, Joblib, ngrok
+🔹 Python, Scikit-Learn
